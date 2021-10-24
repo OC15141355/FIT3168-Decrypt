@@ -22,8 +22,9 @@ namespace Project1
 
         static void Main(string[] args)
         {
-            string key = "05e171a6107fc7b8";
-            string result = Decrypt("FEQQVEVIXBRCVVsDAENCVlFYAB1UUBNSbl5CCwFSEBRTQxMdR1gPGlRIRw8RTkJeQloIEVRDBFJYRFQHEVMRAxIOQVdHDAdZQVVZTkFSGkhcWgxFGUIQWhMcF0QUFUsDVkIXWENUSRJXQBtCEkIHSkkcXldUXQ5FVBgTABMeWXhDTBZFUlxJFFxJRBcPF09NEFYQQkNeDFNDEBoWGU0bbEZ7AFcYRARkRgZYFUNUF0tEWghURUJBChFVTxYPWAtMHkYUXRdNQVlBVVkVEFtCXV5WRRxVUBJTBwQXSwJSEQkCDUUcR1MKUlcCF0sKQwdKEARVAQcRTF0RX0Y_EWIgCnwEDH0GcA9MCBIeXQ", key);
+            // keys go here
+            string key = ""; 
+            string result = Decrypt("", key);
 
             Console.WriteLine(result);
             Console.ReadLine();
